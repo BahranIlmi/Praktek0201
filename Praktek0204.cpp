@@ -9,4 +9,13 @@ int main(){
 
 	cout << " Luas Rumah				: "<<LuasRumah<<" m2"<<endl;
 	cout << " Luas 1 box parket			: "<<Luas1Box<<" m2"<<endl;
+	
+	JumlahBoxP = LuasRumah/Luas1Box;
+	cout << " Jumlah Box Parket			: "<<JumlahBoxP<<endl;
+	
+	BiayaP = JumlahBoxP*500;
+	cout<< " Biaya Parket (Rp)			: "<<BiayaP<<endl;
+	
+	BiayaPG = LuasRumah*20;
+	cout<< " Biaya Pasang (Rp)			: "<<BiayaPG<<endl;
 }
