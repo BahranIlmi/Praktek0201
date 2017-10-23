@@ -18,4 +18,7 @@ int main(){
 	
 	BiayaPG = LuasRumah*20;
 	cout<< " Biaya Pasang (Rp)			: "<<BiayaPG<<endl;
+	
+	TotalB = BiayaP+BiayaPG;
+	cout<< " Total Biaya (Rp)			: "<<TotalB<<endl;
 }
